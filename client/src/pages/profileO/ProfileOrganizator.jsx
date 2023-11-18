@@ -57,8 +57,8 @@ export const ProfileOrganizator = () => {
       </div>
     <div className={cls.secondaryInfo}>
     <div className={cls.logo}><img src={`/img/events/${count.data.image}`} alt='logo'/></div>
-    <input name='password' value={count.data.password}/>
-    <input name='second_password' placeholder='Повторите пароль'/>
+    <input name='password' value={count.data.password} type='password'/>
+    <input name='second_password' placeholder='Повторите пароль' type='password'/>
     {
       block ?  <input onClick={() => {
         setBlock(false)}} type='button' value='Редактировать' className={cls.btn}/> : <input onClick={clickBtn} value='Сохранить' type='submit' className={cls.btn}/>
