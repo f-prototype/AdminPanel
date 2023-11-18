@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+        text-align: center;
+    }
+}
+.box {
+    display: flex;
+    margin: auto;
+}
+
+.mainInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.description, .mainInfo {
+    border: 3px solid black;
+    padding: 20px;
+}
